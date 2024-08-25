@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 const Login = () => {
@@ -5,6 +6,9 @@ const Login = () => {
     <div>
       
       <h1>Main login page</h1>
+      <br/>
+      <br/>
+      <Link href="/">Home page</Link>
     </div>
   );
 };
