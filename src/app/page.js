@@ -35,6 +35,7 @@ export default function Home() {
       {/* implementation of links */}
       <Link href="/login">Go to login page</Link>
       <Link href="/about">Go to About page</Link>
+      <Link href="/studentList">Go to StudentList</Link>
 
       {/* navigation through buttonsa */}
       <button onClick={()=>navigate("/login")}>Go to login page</button>
